@@ -1,18 +1,2 @@
-
-/**
- * USERcycle
- */
-
-.logo[data-logo="USERcycle"] {
-  width: 4.51874205em;
-  /* (1096.45/227.99) * (1-.05) - .05 */
-}
-
-.logo[data-logo="USERcycle"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0 0 .05em -.05em;
-}
-
-.logo[data-logo="USERcycle"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
